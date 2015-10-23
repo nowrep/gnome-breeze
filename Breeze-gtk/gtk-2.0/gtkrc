@@ -35,8 +35,8 @@ style "default"
 	GtkButton::default-border	= { 0, 0, 0, 0 }
 	GtkButton::default-outside_border	= { 0, 0, 0, 0 }
 
-	GtkScrollbar::trough-border	= 5
-	GtkScrollbar::slider-width	= 10
+	GtkScrollbar::trough-border	= 0
+	GtkScrollbar::slider-width	= 20
 	GtkRange::trough-border		= 0
 	GtkRange::slider-width		= 7
 	GtkRange::stepper-size		= 0
@@ -579,7 +579,7 @@ style "scrollbar"
       function				= SLIDER
       state           			= NORMAL
       file				= "Scrollbars/slider-scrollbar-horiz.png" 
-      border				= { 5, 5, 5, 5 }
+      border				= { 10, 10, 5, 5 }
       stretch				= TRUE
       orientation			= HORIZONTAL
 
@@ -589,7 +589,7 @@ style "scrollbar"
       function				= SLIDER
       state           			= ACTIVE
       file				= "Scrollbars/slider-scrollbar-horiz-active.png" 
-      border				= { 5, 5, 5, 5 }
+      border				= { 10, 10, 5, 5 }
       stretch				= TRUE
       orientation			= HORIZONTAL
 
@@ -599,7 +599,7 @@ style "scrollbar"
       function				= SLIDER
       state           			= PRELIGHT
       file				= "Scrollbars/slider-scrollbar-horiz-prelight.png" 
-      border				= { 5, 5, 5, 5 }
+      border				= { 10, 10, 5, 5 }
       stretch				= TRUE
       orientation			= HORIZONTAL
 
@@ -609,7 +609,7 @@ style "scrollbar"
       function				= SLIDER
       state           			= INSENSITIVE
       file				= "Scrollbars/slider-scrollbar-horiz-insens.png"
-      border				= { 5, 5, 5, 5 }
+      border				= { 10, 10, 5, 5 }
       stretch				= TRUE
       orientation			= HORIZONTAL
 
@@ -622,7 +622,7 @@ style "scrollbar"
       function				= SLIDER
       state           			= NORMAL
       file				= "Scrollbars/slider-scrollbar-vert.png" 
-      border				= { 5, 5, 5, 5 }
+      border				= { 5, 5, 10, 10 }
       stretch				= TRUE
       orientation			= VERTICAL
 
@@ -632,7 +632,7 @@ style "scrollbar"
       function				= SLIDER
       state           			= ACTIVE
       file				= "Scrollbars/slider-scrollbar-vert-active.png" 
-      border				= { 5, 5, 5, 5 }
+      border				= { 5, 5, 10, 10 }
       stretch				= TRUE
       orientation			= VERTICAL
 
@@ -642,7 +642,7 @@ style "scrollbar"
       function				= SLIDER
       state           			= PRELIGHT
       file				= "Scrollbars/slider-scrollbar-vert-prelight.png" 
-      border				= { 5, 5, 5, 5 }
+      border				= { 5, 5, 10, 10 }
       stretch				= TRUE
       orientation			= VERTICAL
 
@@ -652,7 +652,7 @@ style "scrollbar"
       function				= SLIDER
       state           			= INSENSITIVE
       file				= "Scrollbars/slider-scrollbar-vert-insens.png"
-      border				= { 5, 5, 5, 5 }
+      border				= { 5, 5, 10, 10 }
       stretch				= TRUE
       orientation			= VERTICAL
 
